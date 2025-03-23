@@ -35,13 +35,13 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '--1002666607351)  # set sh
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002666607351')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002666607351'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002677058408')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002471519870'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002471519870') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002251927740')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/movie_masalaprouk') #Support group link ( make sure bot is admin )
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002569027528'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002569027528') # If anyone sends a request message to your bot, you will get it in this channel.
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002677058408')) # 
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/G1_supportz') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/movie_masalaprouk/259")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/movie_masalaprouk/259")
@@ -80,7 +80,7 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
-IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', False)
+IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', True)
 IS_SEND_MOVIE_UPDATE = is_enabled('IS_SEND_MOVIE_UPDATE', False) # Don't Change It ( If You Want To Turn It On Then Turn It On By Commands) We Suggest You To Make It Turn Off If You Are Indexing Files First Time.
 PORT = environ.get('PORT', '5000')
 MAX_BTN = int(environ.get('MAX_BTN', '8'))
