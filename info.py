@@ -43,9 +43,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/G1_supportz') #Support 
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/movie_masalaprouk/259")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/movie_masalaprouk/259")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/movie_masalaprouk/259")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/GG_Botz")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://GG_Botz")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://GG_Botz")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "3f18693f87baca01c37c5aa8555b88fe864a3605")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'modijiurl.com')
